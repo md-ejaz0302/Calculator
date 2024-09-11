@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Oswald:wght@500&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 255, 255);
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 11px rgb(99, 99, 99);
+}  
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.button {
+    border: 1.5px solid rgb(0, 0, 0);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(131, 141, 244);
+}
+
+#equal {
+    background-color: rgb(0, 255, 0);
+}
+
+#equal:hover {
+    background-color: rgb(0, 210, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(72, 40, 255);
+    transition: 0.3s ease-in-out;
+}
+
+.operator:hover {
+    background-color: rgb(255, 242, 0);
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+
+.operator {
+    background-color: rgb(255, 255, 116);
+    color: rgb(0, 0, 0);
+}
